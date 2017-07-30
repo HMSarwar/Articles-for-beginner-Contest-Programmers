@@ -1,0 +1,15 @@
+/*This is the algorithm for Longest common subsequence
+whose complexity is O(n*m) without using DP*/
+
+Algorithm LCS:
+
+	for i:=0 to m
+		temp:=i, length=0;
+		for j:=0 to n
+			if string1[temp]==string2[j]
+				temp++, length++
+			else
+				maxlen:= maximum of maxlen and lengh, length:=0, temp:=i;
+		maxlen:= maximum of maxlen and lengh
+
+/*Hope it will help you implement Longest Common Subsequence without any variations. For further advanced implementation DP is recommended. */
