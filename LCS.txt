@@ -12,4 +12,4 @@ Algorithm LCS:
 				maxlen:= maximum of maxlen and lengh, length:=0, temp:=i;
 		maxlen:= maximum of maxlen and lengh
 
-/*Hope it will help you implement Longest Common Subsequence without any variations. For further advanced implementation DP is recommended. */
+/*Hope it will help you implement Longest Common Substring without any variations. For further advanced implementation DP is recommended. */
