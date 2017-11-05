@@ -1,4 +1,4 @@
-/*This is the algorithm for Longest common subsequence
+/*This is the algorithm for Longest common substring
 whose complexity is O(n*m) without using DP*/
 
 Algorithm LCS:
